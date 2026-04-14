@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal website template for showcasing your work and experience."
+    />
+    <title>Your Name | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a class="logo" href="#home">Your Name</a>
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <nav class="site-nav" id="site-nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+          <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+            <span id="theme-icon">Dark</span>
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Your Name</h1>
+            <p class="lead">
+              A short sentence about who you are and what you build. This template
+              is designed to help you launch a clean personal site quickly.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#contact">Get In Touch</a>
+            </div>
+          </div>
+          <div class="card">
+            <h2>Quick Facts</h2>
+            <ul class="facts-list">
+              <li>Based in City, Country</li>
+              <li>Role or Profession</li>
+              <li>Focus: Frontend, Backend, UX, etc.</li>
+              <li>your.email@example.com</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="container narrow">
+          <h2>About Me</h2>
+          <p>
+            Write 2-4 sentences that describe your background, values, and the kind
+            of work you enjoy. Keep this personal and specific to stand out.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Featured Projects</h2>
+            <a class="inline-link" href="#">See all projects -&gt;</a>
+          </div>
+          <div class="project-grid">
+            <article class="card project-card">
+              <h3>Project One</h3>
+              <p>
+                Briefly explain the project goal, your contribution, and the impact.
+              </p>
+              <p class="stack">Tech: HTML, CSS, JavaScript</p>
+              <a href="#" class="inline-link">Live Demo</a>
+            </article>
+            <article class="card project-card">
+              <h3>Project Two</h3>
+              <p>
+                Mention what problem this solves and one interesting challenge you
+                tackled.
+              </p>
+              <p class="stack">Tech: React, Node.js</p>
+              <a href="#" class="inline-link">GitHub Repo</a>
+            </article>
+            <article class="card project-card">
+              <h3>Project Three</h3>
+              <p>
+                Highlight measurable outcomes like performance, engagement, or speed.
+              </p>
+              <p class="stack">Tech: Python, API, SQL</p>
+              <a href="#" class="inline-link">Case Study</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="experience">
+        <div class="container narrow">
+          <h2>Experience</h2>
+          <div class="timeline">
+            <article class="timeline-item">
+              <h3>Job Title - Company Name</h3>
+              <p class="meta">2024 - Present</p>
+              <p>
+                Add 1-2 bullets worth of summary in sentence form about your impact.
+              </p>
+            </article>
+            <article class="timeline-item">
+              <h3>Previous Role - Company Name</h3>
+              <p class="meta">2022 - 2024</p>
+              <p>
+                Describe what you shipped, improved, or learned in this role.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="container narrow">
+          <h2>Contact</h2>
+          <p>
+            Open to freelance, full-time roles, and collaboration. Reach out by
+            email or connect on social platforms.
+          </p>
+          <div class="contact-links">
+            <a class="btn primary" href="mailto:your.email@example.com">Email Me</a>
+            <a class="btn ghost" href="#">LinkedIn</a>
+            <a class="btn ghost" href="#">GitHub</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        <a href="#home" class="inline-link">Back to top</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
